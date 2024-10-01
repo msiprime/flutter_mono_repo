@@ -1,0 +1,12 @@
+name: task_app
+
+packages:
+  - packages/*
+#  - task_app_core
+#  - task_app_ui
+
+
+scripts:
+
+  analyze:
+    exec: dart analyze .
