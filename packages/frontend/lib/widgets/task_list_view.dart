@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
 
-class TaskList extends StatelessWidget {
-  const TaskList({
+class TaskListView extends StatelessWidget {
+  const TaskListView({
     super.key,
     required this.tasks,
   });

@@ -6,6 +6,7 @@ class InMemoryTaskRepo implements TaskRepo {
   final List<Task> _data = [
     Task(id: 's', title: 'Task 1', isCompleted: false),
     Task(id: 'sa', title: 'Task 2', isCompleted: false),
+    Task(id: 'sak', title: 'Task 3', isCompleted: false),
   ];
 
   List<Task> get tasks => _data;
